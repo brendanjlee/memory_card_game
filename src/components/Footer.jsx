@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div className="footer">
-      <p>Footer</p>
+      <p>Github: brendanjlee</p>
     </div>
   );
 }

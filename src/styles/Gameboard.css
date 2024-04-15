@@ -1,5 +1,5 @@
 .gameboard {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 230px));
+  grid-template-columns: repeat(5, minmax(180px, 230px));
   gap: 10px;
 }
