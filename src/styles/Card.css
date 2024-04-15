@@ -1,9 +1,24 @@
-.card,
-.card-front,
-.card-back {
+.card {
+  font-family: '8BIT WONDER', sans-serif;
   width: 180px;
   height: 250px;
-
   border-radius: 5px;
   border: solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+.card img {
+  width: 70%;
+  height: auto;
+}
+
+.pokemon-name {
+  padding-top: 50px;
+
 }
