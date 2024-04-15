@@ -1,6 +1,6 @@
 import Header from './components/Header'
 import Main from './components/Main'
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 
 import './App.css'
 import { useEffect, useState } from 'react'
@@ -125,15 +125,6 @@ function App() {
     }
   }
 
-  if (isLoading) {
-    return (
-    <>
-      <Header />
-      <h1>Loading Data</h1>
-    </>
-  );
-  }
-
   return (
     <div className='App'>
       <Header/>
@@ -142,8 +133,9 @@ function App() {
         highScore={highScore}
         pokemons={pokeData}
         handleCardClick={handleCardClick}
+        isLoading={isLoading}
       />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
