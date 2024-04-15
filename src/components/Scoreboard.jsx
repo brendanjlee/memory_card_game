@@ -1,8 +1,9 @@
 
-function Scoreboard() {
+function Scoreboard({currScore, highScore}) {
   return (
     <div className="scoreboard">
-      <h3>Score: 999</h3>
+      <p>Score: {currScore}</p>
+      <p>High Score: {highScore}</p>
     </div>
   );
 }

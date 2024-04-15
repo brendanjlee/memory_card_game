@@ -1,11 +1,11 @@
 import Scoreboard from "./Scoreboard";
 import Gameboard from "./Gameboard";
 
-function Main() {
+function Main({pokemons, currScore, highScore, handleCardClick}) {
   return (
     <div className="main">
-      <Scoreboard />
-      <Gameboard />
+      <Scoreboard currScore={currScore} highScore={highScore}/>
+      <Gameboard pokemons={pokemons} handleCardClick={handleCardClick} />
     </div>
   );
 }
