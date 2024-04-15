@@ -2,4 +2,4 @@
 
 Pokemon Memory Card game using [pokeAPI](https://pokeapi.co/) 
 
-Demo: https://memory-card-game-phi.vercel.app/
+Check out the [demo](https://memory-card-game-phi.vercel.app/)!
