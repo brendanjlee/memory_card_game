@@ -1,3 +1,4 @@
+import '../styles/Gameboard.css'
 import Card from "./Card";
 
 function Gameboard({pokemons, handleCardClick}) {
